@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import ClassCounter from "./components/ClassCounter";
+import DataFetching from "./components/DataFetching";
 import HookCounter from "./components/HookCounter";
 import HookCounterOne from "./components/HookCounterOne";
 import HookCounterThree from "./components/HookCounterThree";
@@ -20,7 +21,10 @@ function App() {
     {/* <HookCounterOne/> */}
     {/* <HookMouse/> */}
     {/* <MouseContainer /> */}
+
     {/* <IntervalHookCounter/> */}
+    <DataFetching />
+
   </div>;
 }
 
